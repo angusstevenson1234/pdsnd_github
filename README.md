@@ -6,6 +6,7 @@ Angus Stevenson GitHub Project
 
 ### Description
 Learning GitHub
+Become fluent in GitHub
 
 ### Files used
 Include the files used
