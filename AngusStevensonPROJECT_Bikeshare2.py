@@ -57,7 +57,7 @@ def time_stats(df):
     df['Start Time']=pd.to_datetime(df['Start Time'])
     df['hour_start'] = df['Start Time'].dt.hour
     popular_hour = df['hour_start'].mode()[0]
-    print("The most popular time of the day for bike\nrental is: {} hundred hours.".format(popular_hour))
+    print("The most popular time in the day for bike\nrental is: {} hundred hours.".format(popular_hour))
 
 # Display station statistics
 def station_stats(df):
