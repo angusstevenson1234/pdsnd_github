@@ -19,7 +19,7 @@ def get_filters():
     city=input("What city would you prefer? ").lower()
     city_list=['chicago', 'washington', 'new york city']
     while city not in city_list:
-        print("Incorrect - choose again")
+        print("Incorrect - please choose again")
         city=input("What city are you interested in? ").lower()
 
     # Month:
