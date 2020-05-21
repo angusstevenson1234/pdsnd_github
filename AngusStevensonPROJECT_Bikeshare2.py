@@ -80,7 +80,7 @@ def trip_duration_stats(df):
     total_travel_time=df['Trip Duration'].sum()/60/60/24
     days_travel_time=total_travel_time/24
     days_travel="%.2f"% days_travel_time
-    print("The total time travel is: {} days".format(days_travel))
+    print("The cumulative time travel is: {} days".format(days_travel))
 
     # Display mean travel time
     mean_travel_time=df['Trip Duration'].mean()/60
